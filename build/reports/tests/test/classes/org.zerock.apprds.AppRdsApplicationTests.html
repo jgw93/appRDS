@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - AppRdsApplicationTests</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>AppRdsApplicationTests</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/org.zerock.apprds.html">org.zerock.apprds</a> &gt; AppRdsApplicationTests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">1</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.526s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">contextLoads()</td>
+<td class="success">0.526s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>15:17:37.994 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [org.zerock.apprds.AppRdsApplicationTests]: AppRdsApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+15:17:38.076 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration org.zerock.apprds.AppRdsApplication for test class org.zerock.apprds.AppRdsApplicationTests
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.3.0)
+
+2024-06-04T15:17:38.397+09:00  INFO 1840 --- [appRDS] [    Test worker] o.zerock.apprds.AppRdsApplicationTests   : Starting AppRdsApplicationTests using Java 17.0.11 with PID 1840 (started by it in C:\Javaworkspace_Spring\appRDS)
+2024-06-04T15:17:38.398+09:00 DEBUG 1840 --- [appRDS] [    Test worker] o.zerock.apprds.AppRdsApplicationTests   : Running with Spring Boot v3.3.0, Spring v6.1.8
+2024-06-04T15:17:38.399+09:00  INFO 1840 --- [appRDS] [    Test worker] o.zerock.apprds.AppRdsApplicationTests   : No active profile set, falling back to 1 default profile: &quot;default&quot;
+2024-06-04T15:17:38.895+09:00  INFO 1840 --- [appRDS] [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-04T15:17:38.913+09:00  INFO 1840 --- [appRDS] [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10 ms. Found 0 JPA repository interfaces.
+2024-06-04T15:17:39.277+09:00  INFO 1840 --- [appRDS] [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-04T15:17:39.328+09:00  INFO 1840 --- [appRDS] [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-06-04T15:17:39.361+09:00  INFO 1840 --- [appRDS] [    Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-06-04T15:17:39.629+09:00  INFO 1840 --- [appRDS] [    Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-04T15:17:39.653+09:00  INFO 1840 --- [appRDS] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-06-04T15:17:39.846+09:00  INFO 1840 --- [appRDS] [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.mariadb.jdbc.Connection@2d73e8c4
+2024-06-04T15:17:39.848+09:00  INFO 1840 --- [appRDS] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-06-04T15:17:40.206+09:00  INFO 1840 --- [appRDS] [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-04T15:17:40.210+09:00  INFO 1840 --- [appRDS] [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-04T15:17:40.324+09:00  WARN 1840 --- [appRDS] [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-04T15:17:40.720+09:00  WARN 1840 --- [appRDS] [    Test worker] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: c28f7cfd-5f7d-4a86-92dc-9978e5c0aa18
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-06-04T15:17:40.759+09:00  INFO 1840 --- [appRDS] [    Test worker] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2024-06-04T15:17:40.868+09:00  INFO 1840 --- [appRDS] [    Test worker] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@1d33e72e, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@26a202ae, org.springframework.security.web.context.SecurityContextHolderFilter@447543ee, org.springframework.security.web.header.HeaderWriterFilter@102fd71d, org.springframework.web.filter.CorsFilter@46bdc55e, org.springframework.security.web.csrf.CsrfFilter@5d04fbb7, org.springframework.security.web.authentication.logout.LogoutFilter@71d78cac, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@7146c6ea, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@2c7c898a, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@6e12f38c, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@534d0cfa, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@22846a1d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6167c42f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6c1a63f7, org.springframework.security.web.access.ExceptionTranslationFilter@4850d66b, org.springframework.security.web.access.intercept.AuthorizationFilter@480994d3]
+2024-06-04T15:17:40.917+09:00  INFO 1840 --- [appRDS] [    Test worker] o.zerock.apprds.AppRdsApplicationTests   : Started AppRdsApplicationTests in 2.706 seconds (process running for 3.603)
+2024-06-04 15:17:42
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 8.7</a> at 2024. 6. 4. 오후 3:17:41</p>
+</div>
+</div>
+</body>
+</html>
